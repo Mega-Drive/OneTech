@@ -80,6 +80,10 @@
 	{
 		padding-left: 25px;
 	}
+	.deals_timer_box
+	{
+		width: 150px;
+	}
 	.deals_timer_unit
 	{
 		font-size: 20px;
@@ -87,6 +91,18 @@
 	.banner_2_dots
 	{
 		left: calc((100% - 960px) / 2 + 15px);
+	}
+	.arrivals_single > div
+	{
+		padding-left: 24px;
+	}
+	.arrivals_single_marks
+	{
+		left: 24px;
+	}
+	.newsletter_form
+	{
+		width: 456px;
 	}
 }
 
@@ -218,6 +234,47 @@
 	{
 		left: calc((100% - 720px) / 2 + 15px);
 	}
+	.tabs
+	{
+		padding-top: 80px;
+	}
+	.tabs.tabs-right ul
+	{
+		float: left;
+	}
+	.arrivals_single
+	{
+		display: none;
+	}
+	.advert_col
+	{
+		margin-bottom: 30px;
+	}
+	.advert_col:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.trends_slider_container
+	{
+		margin-top: 15px;
+	}
+	.newsletter_title_container
+	{
+		width: 100%;
+	}
+	.newsletter_content
+	{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.newsletter_form
+	{
+		width: calc(100% - 114px);
+	}
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 40px;
+	}
 }
 
 /************
@@ -288,14 +345,6 @@
 	{
 		padding-left: 36px;
 	}
-	.slick-active:nth-child(4n) .multirow_slider_item::after
-	{
-		display: block;
-	}
-	.slick-active:nth-child(3n) .multirow_slider_item::after
-	{
-		display: none;
-	}
 	.banner_2_item
 	{
 		height: auto;
@@ -332,6 +381,8 @@
 
 @media only screen and (max-width: 575px)
 {
+	h2{font-size: 24px;}
+	p{font-size: 13px;}
 	.top_bar
 	{
 		display: none;
@@ -551,14 +602,6 @@
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-	.slick-active:nth-child(3n) .multirow_slider_item::after
-	{
-		display: block;
-	}
-	.slick-active:nth-child(2n) .multirow_slider_item::after
-	{
-		display: none;
-	}
 	.popular_categories_slider_nav
 	{
 		display: none;
@@ -591,6 +634,137 @@
 	{
 		margin-top: 30px;
 	}
+	.tabs ul li
+	{
+		font-size: 14px;
+		margin-right: 30px;
+	}
+	.bestsellers_slider
+	{
+		padding-bottom: 0px;
+	}
+	.newsletter_form
+	{
+		float: none;
+		width: 100%;
+	}
+	.newsletter_title_container
+	{
+		padding-left: 0px;
+		text-align: center;
+	}
+	.newsletter_unsubscribe_link
+	{
+		float: none;
+		text-align: center;
+		margin-top: 10px;
+		height: auto;
+	}
+	.newsletter_unsubscribe_link a
+	{
+		line-height: 1;
+	}
+	.newsletter_title
+	{
+		font-size: 16px;
+	}
+	.newsletter_icon
+	{
+		position: relative;
+		width: 40px;
+		top: auto; 
+		-webkit-transform: translate(-50%, 0px); 
+		-moz-transform: translate(-50%, 0px); 
+		-ms-transform: translate(-50%, 0px); 
+		-o-transform: translate(-50%, 0px); 
+		transform: translate(-50%, 0px); 
+		left: 50%; 
+		margin-bottom: 20px;
+	}
+	.newsletter_button
+	{
+		position: relative;
+	    top: auto;
+	    right: auto;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	    width: 113px;
+	    height: 40px;
+	    background: #0e8ce4;
+	    color: #FFFFFF;
+	    line-height: 40px;
+	    font-size: 12px;
+	    border: none;
+	    outline: none;
+	    border-top-right-radius: 5px;
+	    border-bottom-right-radius: 5px;
+	    border-top-left-radius: 5px;
+	    border-bottom-left-radius: 5px;
+	    cursor: pointer;
+	    margin-top: 20px;
+	}
+	.newsletter_input
+	{
+		font-size: 13px;
+		padding-left: 15px;
+		height: 40px;
+		line-height: 40px;
+	}
+	::placeholder
+	{
+		font-size: 13px;
+		color: rgba(0,0,0,0.3);
+	}
+	.copyright_container
+	{
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.logos
+	{
+		margin-top: 30px;
+	}
+	.popular_categories_title
+	{
+		font-size: 24px;
+	}
+	.tabs.tabs-right .tabs_line
+	{
+		margin-top: 52px;
+	}
+	.tabs_line span
+	{
+		display: none;
+	}
+	.advert_content
+	{
+		padding-left: 15px;
+	}
+	.advert_text
+	{
+		font-size: 13px;
+	}
+	.advert_image
+	{
+		width: 125px;
+	}
+	.reviews
+	{
+		padding-bottom: 80px;
+	}
+	.reviews_all a span
+	{
+		display: none;
+	}
+	.reviews_dots
+	{
+		display: none;
+	}
 }
 
 /************
@@ -617,14 +791,7 @@
 
 @media only screen and (max-width: 479px)
 {
-	.slick-active:nth-child(2n) .multirow_slider_item::after
-	{
-		display: block;
-	}
-	.slick-active .multirow_slider_item::after
-	{
-		display: none !important;
-	}
+	
 }
 
 /************
