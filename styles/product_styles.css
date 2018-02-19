@@ -12,22 +12,12 @@
 	3.2 Header Main
 	3.3 Main Navigation
 	3.4 Page Menu
-4. Banner
-5. Characteristics
-6. Deals of the week
-	6.1 Deals
-	6.2 Featured
-7. Popular Categories
-8. Banner 2
-9. Hot New Arrivals
-10. Hot Best Sellers
-11. Adverts
-12. Trends
-13. Latest Reviews
-14. Recently Viewed
-15. Brands
-16. Newsletter
-17. Footer
+4. Home
+5. Single Product
+6. Recently Viewed
+7. Brands
+8. Newsletter
+9. Footer
 
 
 ******************************/
@@ -1615,7 +1605,7 @@ select option
 }
 
 /*********************************
-14. Recently Viewed
+6. Recently Viewed
 *********************************/
 
 .viewed
@@ -1775,7 +1765,7 @@ select option
 }
 
 /*********************************
-15. Brands
+7. Brands
 *********************************/
 
 .brands
@@ -1839,7 +1829,7 @@ select option
 }
 
 /*********************************
-16. Newsletter
+8. Newsletter
 *********************************/
 
 .newsletter
@@ -1977,7 +1967,7 @@ select option
 }
 
 /*********************************
-17. Footer
+9. Footer
 *********************************/
 
 .footer

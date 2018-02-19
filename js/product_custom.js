@@ -235,7 +235,8 @@ $(document).ready(function()
 			{
 				loop:true,
 				margin:30,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:6000,
 				nav:false,
 				dots:false,
 				responsive:
@@ -283,7 +284,8 @@ $(document).ready(function()
 			brandsSlider.owlCarousel(
 			{
 				loop:true,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:5000,
 				nav:false,
 				dots:false,
 				autoWidth:true,
@@ -405,7 +407,6 @@ $(document).ready(function()
 			image.on('click', function()
 			{
 				var imagePath = new String(image.data('image'));
-				console.log(imagePath);
 				selected.attr('src', imagePath);
 			});
 		});

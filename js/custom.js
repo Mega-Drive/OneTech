@@ -737,6 +737,8 @@ $(document).ready(function()
 			slidesToScroll:3,
 			arrows:false,
 			dots:true,
+			autoplay: true,
+  			autoplaySpeed: 6000,
 			responsive:
 			[
 				{
@@ -869,7 +871,8 @@ $(document).ready(function()
 			{
 				loop:true,
 				margin:30,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:6000,
 				nav:false,
 				dots:false,
 				responsive:
@@ -917,7 +920,8 @@ $(document).ready(function()
 			brandsSlider.owlCarousel(
 			{
 				loop:true,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:5000,
 				nav:false,
 				dots:false,
 				autoWidth:true,

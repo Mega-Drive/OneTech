@@ -12,6 +12,7 @@
 6. Init Brands Slider
 7. Init Isotope
 8. Init Price Slider
+9. Init Favorites
 
 
 ******************************/
@@ -36,7 +37,8 @@ $(document).ready(function()
 	initViewedSlider();
 	initBrandsSlider();
 	initIsotope();
-	initPriceSlider()
+	initPriceSlider();
+	initFavs();
 
 	$(window).on('resize', function()
 	{
@@ -231,7 +233,8 @@ $(document).ready(function()
 			{
 				loop:true,
 				margin:30,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:6000,
 				nav:false,
 				dots:false,
 				responsive:
@@ -279,7 +282,8 @@ $(document).ready(function()
 			brandsSlider.owlCarousel(
 			{
 				loop:true,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:5000,
 				nav:false,
 				dots:false,
 				autoWidth:true,
@@ -392,4 +396,24 @@ $(document).ready(function()
 			});
     	}	
     }
+
+    /* 
+
+	9. Init Favorites
+
+	*/
+
+	function initFavs()
+	{
+		// Handle Favorites
+		var items = document.getElementsByClassName('product_fav');
+		for(var x = 0; x < items.length; x++)
+		{
+			var item = items[x];
+			item.addEventListener('click', function(fn)
+			{
+				fn.target.classList.toggle('active');
+			});
+		}
+	}
 });
