@@ -77,7 +77,8 @@ $(document).ready(function()
 
 	function setHeader()
 	{
-		//Pin main nav to the top of the page when it's reached
+		//To pin main nav to the top of the page when it's reached
+		//uncomment the following
 
 		// var controller = new ScrollMagic.Controller(
 		// {
